@@ -1,0 +1,5 @@
+[06-Aug-2022 11:28:19 UTC] PHP Warning:  Module 'curl' already loaded in Unknown on line 0
+[06-Aug-2022 11:28:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/wwlapa/CustomerAPIS/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/wwlapa/CustomerAPIS/app/Models/User.php on line 10

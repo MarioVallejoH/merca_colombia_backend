@@ -1,0 +1,10 @@
+[07-Jun-2022 09:21:01 UTC] PHP Warning:  Module 'curl' already loaded in Unknown on line 0
+[07-Jun-2022 09:21:01 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/wwlapa/CustomerAPIS/app/Http/Controllers/OrderSaleItemsController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/wwlapa/CustomerAPIS/app/Http/Controllers/OrderSaleItemsController.php on line 8
+[21-Jun-2022 04:46:24 UTC] PHP Warning:  Module 'curl' already loaded in Unknown on line 0
+[21-Jun-2022 04:46:24 UTC] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/wwlapa/CustomerAPIS/app/Http/Controllers/CompaniesController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/wwlapa/CustomerAPIS/app/Http/Controllers/CompaniesController.php on line 11
