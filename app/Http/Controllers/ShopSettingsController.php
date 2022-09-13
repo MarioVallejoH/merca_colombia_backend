@@ -23,12 +23,6 @@ class ShopSettingsController extends Controller
         
         $shop_settings = ShopSettings::first();
 
-        $biller_data = BillerDataController::getBillerData($shop_settings['biller']);
-        $company_data = CompaniesController::getCompanyData($biller_data['biller_id']);
-
-        $shop_settings['biller_data'] = $biller_data;
-        $shop_settings['company_data'] = $company_data;
-
         return response()->json([
             'success'   => true,
             'message'   => 'Success!',

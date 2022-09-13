@@ -43,19 +43,12 @@ class CompaniesController extends Controller
                 $company_data["company_id"] = $company->id;
                 $company_data["city"] = $company->city;
                 $company_data["city_code"] = $company->city_code;
-                $company_data["latitude"] = $company->latitude;
                 $company_data["direccion"] = $company->address ?? "";
                 $company_data["sucursal"] = $company->name;
                 $company_data["state"] = $company->state;
                 $company_data["country"] = $company->country;
                 $company_data["phone"] = $company->phone;
-                $company_data["customer_group_id"] = $company->customer_group_id;
-                $company_data["customer_group_name"] = $company->customer_group_name;
-                $company_data["price_group_id"] = $company->price_group_id;
-                $company_data["price_group_name"] = $company->price_group_name;
                 $company_data["email"] = $company->email;
-                $company_data["location"] = $company->location;
-                $company_data["subzone"] = $company->subzone;
                 $company_data["code"] = ($company->vat_no ?? "") . " - 01";
 
                 AddressesController::createaddress($company_data);
